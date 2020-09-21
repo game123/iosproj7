@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C22D121B2514555D001173ED /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D121A2514555D001173ED /* DetailViewController.swift */; };
 		C2DAC6332512618900E99AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAC6322512618900E99AF7 /* AppDelegate.swift */; };
 		C2DAC6352512618900E99AF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAC6342512618900E99AF7 /* SceneDelegate.swift */; };
 		C2DAC6372512618900E99AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAC6362512618900E99AF7 /* ViewController.swift */; };
 		C2DAC63A2512618900E99AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DAC6382512618900E99AF7 /* Main.storyboard */; };
 		C2DAC63C2512618C00E99AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DAC63B2512618C00E99AF7 /* Assets.xcassets */; };
 		C2DAC63F2512618C00E99AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DAC63D2512618C00E99AF7 /* LaunchScreen.storyboard */; };
+		C2DAC647251266EB00E99AF7 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAC646251266EB00E99AF7 /* Petition.swift */; };
+		C2DAC649251267A000E99AF7 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DAC648251267A000E99AF7 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C22D121A2514555D001173ED /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C2DAC62F2512618900E99AF7 /* Project7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DAC6322512618900E99AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2DAC6342512618900E99AF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		C2DAC63B2512618C00E99AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DAC63E2512618C00E99AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2DAC6402512618C00E99AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DAC646251266EB00E99AF7 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		C2DAC648251267A000E99AF7 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C2DAC6322512618900E99AF7 /* AppDelegate.swift */,
 				C2DAC6342512618900E99AF7 /* SceneDelegate.swift */,
 				C2DAC6362512618900E99AF7 /* ViewController.swift */,
+				C22D121A2514555D001173ED /* DetailViewController.swift */,
+				C2DAC646251266EB00E99AF7 /* Petition.swift */,
+				C2DAC648251267A000E99AF7 /* Petitions.swift */,
 				C2DAC6382512618900E99AF7 /* Main.storyboard */,
 				C2DAC63B2512618C00E99AF7 /* Assets.xcassets */,
 				C2DAC63D2512618C00E99AF7 /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2DAC6372512618900E99AF7 /* ViewController.swift in Sources */,
+				C2DAC647251266EB00E99AF7 /* Petition.swift in Sources */,
 				C2DAC6332512618900E99AF7 /* AppDelegate.swift in Sources */,
+				C22D121B2514555D001173ED /* DetailViewController.swift in Sources */,
 				C2DAC6352512618900E99AF7 /* SceneDelegate.swift in Sources */,
+				C2DAC649251267A000E99AF7 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
